@@ -1,0 +1,52 @@
+/* My first stylesheet Layouts */
+div {
+    border: 5px blue solid;
+    margin-block: 1rem auto;
+    background-color: aqua;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.box1 {
+    border-color: rebeccapurple;
+    background-color: blueviolet;
+}
+
+.box2 {
+    border: 2px solid #42352c;
+    border-radius: 100px;
+    background-color: beige;
+}
+
+.borderradius1 {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.borderradius1 p {
+    margin: 0;
+    border: none;
+    width: 20rem;
+}
+
+p {
+    border: greenyellow 2px solid;
+    padding: 1em;
+}
+
+p.example-width {
+    width: 20%;
+}
+
+a {
+    border: 2px dotted blue;
+}
+
+strong {
+    border: 2px dotted yellow;
+}
+
+.box3 {
+    background-image: url(http://placekitten.com/g/200/300);
+    height: 15rem;
+}

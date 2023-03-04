@@ -1,0 +1,32 @@
+/* My stylesheet for NicolasCage CSS */
+
+.floatleft {
+    float: left;
+    /* TRBL*/
+    margin: 0 1rem 1rem 1rem;
+}
+
+.floatright {
+    float: right;
+    /* TRBL*/
+    margin: 0 1rem 1rem 1rem;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+article {
+    width: 50rem;
+    border: 3px solid red;
+    margin: auto;
+}
+
+article:after {
+    content: "";
+    display: table;
+    /* clear: both; */
+    clear: both; 
+}
+

@@ -1,0 +1,66 @@
+/* My first stylesheet CSS */
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: yellow;
+}
+
+img {
+    border: 10px solid gold;
+}
+
+h1 {
+    border: 5px dotted red;
+}
+
+h2, h3 {
+    color: blueviolet;
+}
+
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+cite {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.bigbold {
+    font-size: bold;
+    font-weight: 1.3rem;
+}
+
+a:link {
+    font-weight: bold;
+    font-size: 1.2 rem;
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+    background-color: black;
+}
+a.io {
+    color: blue;
+}
+
+ol li:link {
+    font-weight: bold;
+    font-size: 1.2 rem;
+    color: red;
+    text-decoration: none;
+}
+
+#myid {
+    color: darkred;
+    text-decoration: dotted;
+}

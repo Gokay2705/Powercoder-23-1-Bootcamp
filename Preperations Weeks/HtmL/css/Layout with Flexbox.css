@@ -1,0 +1,23 @@
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row nowrap; /* row yerine colum yazarsak liste asagi dogru uzar*/
+    justify-content: space-around; /*flex-start flex-end --saga yaslar center--ortalar space-around--etrafinda bosluk birakir */
+}
+
+li {
+    border: 3px solid blue;
+    flex-basis: 10%;
+}
+
+div.parent-flex {
+    border: 5px solid red;
+    padding: 10px;
+}
+p.child-flex {
+    border: 5px solid rebeccapurple;
+    padding: 10px;
+}
